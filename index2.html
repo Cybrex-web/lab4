@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> obratnii_numbers </title>
+</head>
+<body>
+<script type="text/javascript">
+	
+var a=prompt("Введите число");
+var c=prompt("Введите модуль");
+var x=0;
+var v=0;
+var q;
+var e;
+while (v<c) 
+{
+	
+	e=a*c;
+	q=e%v;
+	if (q==1) 
+	{
+		alert("Обратное число="+c);
+		q=10;
+		break;
+	}
+		
+		v++;
+
+}
+if (q!=10) {
+	alert("Нет обратного числа");
+	q=10;
+}
+
+
+
+
+</script>
+</body>
+</html>
